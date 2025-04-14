@@ -1,0 +1,77 @@
+# Ignore build files
+bin/
+obj/
+TestResults/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.log
+*.suo
+*.user
+*.csproj.user
+
+# Ignore Visual Studio-related files
+.vscode/
+.idea/
+*.vspscc
+*.vssscc
+.vs/
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Ignore user-specific files
+*.local.json
+*.env
+appsettings.Local.json
+
+
+# Ignore publish output
+PublishProfiles/
+*.pubxml
+*.pubxml.user
+
+# Ignore temporary and backup files
+*_temp/
+*.bak
+*.swp
+
+# Ignore generated files
+Generated/
+Backup/
+Generated_Code/
+
+# Ignore logs and debug info
+*.log
+*.dmp
+*.mdf
+*.ldf
+
+# Ignore IDE temp files
+_ReSharper*
+*.idea/
+*.sln.docstates
+
+# Ignore database and config files
+*.db
+local.settings.json
+
+# Ignore specific OS files
+Thumbs.db
+Desktop.ini
+*.DS_Store
+*.AppleDouble
+$RECYCLE.BIN/
+
+# Ignore JetBrains Rider caches
+.idea/
+*.iml
+
+# Ignore other unwanted files
+Coverage/
+*.coverage
+*.coverlet.json

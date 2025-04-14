@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BankAccountManagement.Data\BankAccountManagement.Data.csproj" />
+    <ProjectReference Include="..\BankAccountManagement.ProcessingLogic\BankAccountManagement.ProcessingLogic.csproj" />
+    <ProjectReference Include="..\BankAccountManagement.Repositories\BankAccountManagement.Repositories.csproj" />
+    <ProjectReference Include="..\BankAccountManagement.Services\BankAccountManagement.Services.csproj" />
+    <ProjectReference Include="..\BankAccountManagement.Validators\BankAccountManagement.Validators.csproj" />
+  </ItemGroup>
+
+</Project>
